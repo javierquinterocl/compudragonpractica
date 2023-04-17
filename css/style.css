@@ -1,0 +1,33 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+nav{
+    width: 90%;
+    height: 70px;
+    background-color: brown;
+    border-bottom: 1px solid transparent;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+}
+.categoria {
+   font-weight: 300;
+   margin: auto;
+   
+}
+
+.nav .categoria{
+    color: blanchedalmond;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 12px;
+    border-radius: 10px;
+}
