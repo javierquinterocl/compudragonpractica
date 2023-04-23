@@ -5,57 +5,116 @@
 }
 body{
     font-family: ' Roboto', sans-serif;
+    background: url('/img/desktop-1920x1080.jpg ') ;
+    
+    
 }
+
 nav{
-    width: 100%;
     height: 70px;
-    background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid transparent;
-    position: fixed;
-    top: 0;
-    z-index: 100;
+    width: 100%;
+    background: rgb(1,0,6);
+    background: linear-gradient(134deg, rgba(1,0,6,1) 0%, rgba(83,0,92,1) 49%, rgba(185,16,223,1) 100%); 
+    backdrop-filter: blur(30px);
 }
 .nav{
     display: flex;
-    height: 80px;
-    width: 100%;
-    align-items: center;
-    
 }
-.categoria {
-   font-weight: 700;
-   margin: 0 0 0 47%;
-   padding-top: 19px;
-   padding-left: 10px;
-   height: 70px;
-   border-radius: 10px 0 0 10px;
-   background-color: rgba(243, 0, 0, 0.952);
-   
+.titulo{
+    position: absolute;
+    z-index: 30;   
+}
+.titulo h1{
+    font-weight: 1000;
+    color: antiquewhite;
+    padding: 10px;
+    margin: 0 0 0 5%;
+}
+
+
+
+ .categoria{
+    
+    height: 70px;
+    margin-left: 40%;
+    width: 60%;
+    padding: 25px 0 0 0; 
+
 }
 
 .categoria a{
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
     
-    
-}
-a{
     text-decoration: none;
-    color: antiquewhite;
-    padding: 5px;
-    
+    color: beige;
+    font-weight: 700;
+    padding: 10px;
+    margin: 10px 0 0 0 ;
     border-radius: 20px;
-    margin-left: 15px;
-    
-    
 }
 
 .categoria a:hover{
-    background-color: rgb(247, 247, 247);
-    color: rgb(2, 2, 2);
-    fill: currentColor;
-    transition: all ease-in-out .6s;
-   
-   
+    background-color: antiquewhite;
+    color: black;
+    transition: all ease-in-out .7s;
 }
+
+.contenedor{
+    width: 100%;
+    margin: 80px 0 ;
+    height: 500px;
+    backdrop-filter: blur(7px);
+    display: flex;
+}
+
+.contenedor .producto{
+   
+    height: 460px;
+    width: 90%;
+    margin: 10px 0 20px 5%;
+    background: rgb(157,63,251);
+    background: linear-gradient(180deg, rgba(157,63,251,1) 0%, rgba(213,70,252,0.9444152661064426) 100%);
+    border-radius: 10px;   
+}
+
+.titulocont{
+  color: antiquewhite;
+  font-weight: 1200;
+  text-align: center;
+  margin: 2% 0 0 0;
+  font-size: x-large;
+}
+
+.imag img{
+    display: flex;
+    width: 40%;
+    height: 350px;
+    padding: 20px;
+    border-radius: 12%;
+}
+.parrafo p {
+    position: absolute;
+    z-index: 100;
+    margin-top: -30%;
+    margin-left: 35%;
+    font-size: 1.8em;
+    font-weight: 500;
+
+    color: rgb(255, 255, 255);
+    
+}
+.ref{
+    display: block;
+    margin: 20px;
+}
+.ref img{
+    
+    width: 100px;
+    height: 100px;
+    margin-top: -20%;
+    margin-right: 10%;
+    z-index: 250;
+    
+    
+    border-radius: 10px;
+}
+
