@@ -18,6 +18,7 @@ nav{
     background: rgb(1,0,6);
     background: linear-gradient(134deg, rgba(1,0,6,1) 0%, rgba(83,0,92,1) 49%, rgba(185,16,223,1) 100%); 
     backdrop-filter: blur(30px);
+    flex-wrap: wrap;
 }
 .nav{
     display: flex;
@@ -31,6 +32,7 @@ nav{
     color: antiquewhite;
     padding: 10px;
     margin: 0 0 0 5%;
+    
 }
  .categoria{
     height: 70px;
@@ -40,7 +42,7 @@ nav{
 
 }
 .categoria a{
-    
+    flex-wrap: wrap;
     text-decoration: none;
     color: beige;
     font-weight: 700;
@@ -239,9 +241,11 @@ width: 55%;
     position: absolute;
     flex-wrap: wrap;
     height: 500px;
-    width: 70%;
-    left: 30%;
-    background: url('../img/fondodesvanecido.png') no-repeat;
+    width: 100%;
+    background: url('../img/fondodesvanecido.png');
+    background-size:contain;
+    background-position: right;
+    background-repeat:no-repeat;	
 }
 .puntua{
     
@@ -273,3 +277,62 @@ width: 55%;
 }
 /* FOOTER*/
 
+footer{
+    width: 100%;
+    height: 250px;
+    background: rgb(0,15,96);
+    background: linear-gradient(90deg, rgba(0,15,96,0.639093137254902) 0%, rgba(60,44,111,0.5550595238095238) 100%);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerpart {
+    width: 30%;
+    height: 250px;
+    display: block;
+    
+}
+.redes{
+    display: block;
+    
+
+}
+.footerpart .redes h3{
+    color: aliceblue;
+    font-weight: 900;
+    padding: 10px;
+    margin: 5px;
+}
+.footerpart .redes h4{
+    padding: 10px ;
+    margin: 5px;
+    font-weight: 600;
+    color: antiquewhite;
+}
+.footerpart .ubicacion h3{
+    color: aliceblue;
+    padding: 10px;
+    margin: 5px;
+    font-weight: 900;
+    
+
+}
+.ubicacion h4{
+    color: aliceblue;
+   
+}
+.ubicacion h5{
+    color: aliceblue;
+    margin: 30px 30px 0 0;
+    padding: 30px 30px 0 0;
+}
+.correo h3{
+    color: aliceblue;
+    padding: 20px;
+    font-weight: 800;
+}
+.correo h4{
+    padding: 17px;
+    color: aliceblue;
+}
