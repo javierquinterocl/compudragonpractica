@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: ' Roboto', sans-serif;
+    background: url('../img/backgroundlogin.jpg');
+    background-repeat:no-repeat;
+}
+
+.contenedor{
+    display: flex;
+    position: absolute;
+    height: 400px;
+    width: 30%;
+    justify-content: center;
+    align-self: center;
+    margin: 40px 0 0 10px;
+    left: 32%;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.26094187675070024) 0%, rgba(255,255,255,0.39539565826330536) 100%);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+.contenedor .iniciar{
+    display: flex;
+    position: absolute;
+    width: 80%;
+    height: 50px;
+    margin: 0 0 0 87px;
+    padding: 2px 0 0 0;
+}
+.contenedor .iniciar h1{
+    
+
+    color: aliceblue;
+    font-weight: 900;
+   
+}
+
+.barra{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background: rgb(0,15,96);
+    background: linear-gradient(90deg, rgba(0,15,96,0.639093137254902) 0%, rgba(204,27,132,0.5550595238095238) 67%);
+    backdrop-filter: blur(30px);
+
+}
+.barra h1{
+    position: absolute;
+    color: antiquewhite;
+    font-weight: 900;
+    padding: 12px;
+    text-align: center;
+    
+}
+.titulo{
+    position: absolute;
+    top: 78%;
+    left: 34%;
+    height: 20px;
+    width: 230px;
+    background: transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+.titulo p{
+    color: aliceblue;
+    font-weight: 400;
+}
+.titulo a{
+    color: aliceblue;
+    font-weight: 900;
+}
+
+.contenedor .usuario{
+    display: flex;
+   width: 30%;
+    height: 130px;
+}
+.usuario{
+    width: auto;
+    float: left;
+    top: 180px;
+}
+.usuario label{
+    color: aliceblue;
+    position: absolute;
+    padding: 0 0 0 20px;
+    left: 10px;
+    font-size: 14px;
+    bottom: 300px;
+}
+.usuario input{
+    width: 350px;
+    position: absolute;
+    height: 20px;
+    top: 100px;
+    left: 7%;
+    margin: 10px 0 3px 0 ;
+    border: none;
+    outline: none;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0.5326505602240896) 0%, rgba(255,255,255,0.5102415966386555) 100%);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+
+}
